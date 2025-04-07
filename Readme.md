@@ -16,8 +16,8 @@ A Spring Boot application that calculates discounted bill totals with real-time 
 - **REST API endpoint** with authentication
 - **Validation** for all inputs
 - **Result Caching** for communication with 3rd party
-- **Configurable discounts** for different account types and long term customers
-- **Configurable connectivity settings to 3rd part** URL, apiKey, connectTimeOut, readTimeout
+- **Configurable discounts** for different account types and long term customers without changing anything in code
+- **Configurable connectivity settings to 3rd part** URL, apiKey, connectTimeOut, readTimeout  without changing anything in code
 - **JWT Validation** only authorized access is possible via valid JWT
 
 ## API Endpoints 🌐
