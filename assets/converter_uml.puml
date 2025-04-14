@@ -1,0 +1,23 @@
+@startuml
+class BillController {
+  +getFinalAmount()
+}
+
+class BillService {
+  +calculateTotal()
+}
+
+class CurrencyService {
+  +convertCurrency()
+  +getExchangeRate()
+}
+
+class DiscountService {
+  +calculateDiscount()
+  +addPolicy()
+}
+
+BillController --> BillService
+BillService --> CurrencyService
+BillService --> DiscountService
+@enduml

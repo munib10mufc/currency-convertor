@@ -59,3 +59,7 @@ A Spring Boot application that calculates discounted bill totals with real-time 
 
 **3rd Party integration url:** This projects connects with `https://v6.exchangerate-api.com/v6`.
 - Due to security reasons `EXCHANGE_API_KEY` is not part of this project code. You need to pass vm argument with your key to get exchange rates e.g `-DEXCHANGE_API_KEY=yourkey` while running the application.
+
+**UML Digram:**
+
+![UML Diagram](./assets/converter_uml.png)
